@@ -52,7 +52,7 @@ const hideHeader = headerHiddenRoutes.includes(location.pathname);
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/login" element={<Login/>} />
-        {/* <Route path="/register" element={<PlayerRegister />} /> */}
+        <Route path="/register" element={<PlayerRegister />} />
         <Route path="/players" element={<PlayerList />} />
         <Route path="/auction" element={<LiveAuctionPlayerCard />} />
         <Route path="/control-center" element={<AuctionPlayerPage />} />

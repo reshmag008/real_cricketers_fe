@@ -28,7 +28,7 @@ const [isLoading, setIsLoading] = useState(true);
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
             <div className="text-center sm:text-left">
               <h1 className="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl mb-1 sm:mb-2">
-               KCC Veterans 37+ Premier Dhamaka League - Team Roster
+               Real Cricket League 2026
               </h1>
               <p className="text-primary-foreground/80 text-sm sm:text-lg">
                 {allTeams ? allTeams.length : 0} {allTeams &&allTeams.length === 1 ? 'team' : 'teams'} registered for auction

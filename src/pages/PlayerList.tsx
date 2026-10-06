@@ -157,18 +157,18 @@ const [approvingPlayerId, setApprovingPlayerId] = useState<number | null>(null);
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
             <div className="text-center sm:text-left">
               <h1 className="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl mb-1 sm:mb-2">
-                KCC Veterans 37+ Premier Dhamaka League - Player Roster
+                Real Cricket League 2026 - Player Roster
               </h1>
               <p className="text-primary-foreground/80 text-sm sm:text-lg">
                 {players ? players.length : 0} {players &&players.length === 1 ? 'player' : 'players'} registered for auction
               </p>
             </div>
-             {/* <Link to="/register" className="w-3/4 sm:w-auto">
+             <Link to="/register" className="w-3/4 sm:w-auto">
               <Button className="w-full sm:w-auto h-10 sm:h-12 px-4 sm:px-6 text-sm sm:text-base font-semibold bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-gold">
                 <UserPlus className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 Register New Player
               </Button>
-            </Link>  */}
+            </Link> 
           </div>
 
           
@@ -250,12 +250,12 @@ const [approvingPlayerId, setApprovingPlayerId] = useState<number | null>(null);
             <p className="text-muted-foreground text-sm sm:text-base mb-4 sm:mb-6 max-w-md px-4">
               Start building your dream team by registering your first player for the auction.
             </p>
-             {/* <Link to="/register">
+             <Link to="/register">
               <Button className="h-10 sm:h-12 px-6 sm:px-8 text-sm sm:text-base font-semibold gradient-pitch hover:opacity-90">
                 <Trophy className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 Register First Player
               </Button>
-            </Link>  */}
+            </Link> 
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5">

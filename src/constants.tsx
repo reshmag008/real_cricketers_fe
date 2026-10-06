@@ -1,4 +1,4 @@
-export const BACKEND_URL = "https://kcc-veterans-be-204746249106.europe-west1.run.app/"   //  "https://my-node-app-204746249106.asia-south1.run.app/" //  ; 
+export const BACKEND_URL = "https://real-cricketers-rcl-be-204746249106.europe-west1.run.app/"   //  "https://my-node-app-204746249106.asia-south1.run.app/" //  ; 
 export const TOTAL_PLAYER = 11
 
 

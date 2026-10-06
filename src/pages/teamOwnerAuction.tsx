@@ -743,7 +743,7 @@ const LiveAuctionTeam: React.FC = () => {
             </h1>
 
             <p className="text-xs text-slate-400 sm:text-sm">
-              KCC Veterans Cricket League
+              Real Cricket League 2026
             </p>
           </div>
 
